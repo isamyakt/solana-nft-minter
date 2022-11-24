@@ -116,14 +116,25 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
+}
+
+.container {
+  background: #1f1f1f;
+}
+
+.wallet-adapter-button-trigger {
+  background-color: #003d88;
 }
